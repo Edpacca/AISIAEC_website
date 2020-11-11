@@ -1,0 +1,140 @@
+@charset "utf-8";
+#header h1 {
+    font-family: inconsolata;
+    font-style: normal;
+    font-weight: 700;
+}
+html {
+    background-color: black;
+    background: black;
+}
+
+body {
+  background-color: black;
+
+}
+h1 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+	color: white;
+	text-align: center;
+	text-decoration-color: white;
+	text-decoration: overline underline;
+	
+	
+}
+
+h3 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+	color: white;
+	text-align: center;
+	text-decoration-color: white;
+}
+	
+h4 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+	color: lightgrey;
+	text-align: center;
+	text-decoration-color: white;
+
+	
+}
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #222; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: bottom; /* Center-align text */
+  width: 10.8%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 1% 1%; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a.wide {
+  float: left; /* Float links side by side */
+  text-align: bottom; /* Center-align text */
+  width: 15.2%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 1% 1%; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a.album {
+  float: left; /* Float links side by side */
+  text-align: bottom; /* Center-align text */
+  width: 23%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 1% 1%; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-flow: column;
+  grid-template-rows: 50% 50%;
+  grid-auto-flow: row;
+}
+
+.video-container iframe{
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gridvid {
+  border: 0px solid #ccc;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#mc_embed_signup{background:#0000; clear:left; font:14px Helvetica,Arial,sans-serif; width:50%;}
+#mc_embed_signup form {text-align:center; padding:10px 0 10px 0;}
+.mc-field-group { display: inline-block; } /* positions input field horizontally */
+#mc_embed_signup input.email {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 15px; border: 1px solid #8A8A8A bkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #343434; background-color: #000000; box-sizing:border-box; height:32px; padding: 0px 0.4em; display: inline-block; margin: 0; width:350px; vertical-align:top;}
+#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+#mc_embed_signup .clear {display: inline-block;} /* positions button horizontally in line with input */
+#mc_embed_signup .button {font-size: 13px; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; letter-spacing: .03em; color: #fff; background-color: #4B4B4B; box-sizing:border-box; height:32px; line-height:32px; padding:0 18px; display: inline-block; margin: 0; transition: all 0.23s ease-in-out 0s;}
+#mc_embed_signup .button:hover {background-color:#458784; cursor:pointer;}
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+#mc_embed_signup input.email {width:100%; margin-bottom:5px;}
+#mc_embed_signup .clear {display: block; width: 100%; margin: auto;}
+#mc_embed_signup .button {width: 100%;}
+/*
+@media (max-width: 768px) 
+{
+
+}
+*/
